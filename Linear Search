@@ -1,0 +1,32 @@
+#include <stdio.h>
+
+int main()
+{
+    int arr[10],i,n,s;
+    printf("Enter the no Elements\n");
+    scanf("%d",&n);
+    
+    printf("Enter the %d Elements\n",n);
+    for(i=0;i<5;i++)
+    { scanf("%d",&arr[i]);}
+    
+    printf("Enter the Elements to be searched");
+    scanf("%d",&s);
+    
+    for(i=0;i<5;i++)
+    {
+        if (arr[i]==s)
+        {
+            printf("Search  successful\n");
+            break;}}
+        
+    
+
+       if(i==n)
+       {
+           printf("successful\n");
+           
+       }
+
+    return 0;
+}
